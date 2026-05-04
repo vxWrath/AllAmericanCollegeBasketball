@@ -1,0 +1,19 @@
+# Environment files — only .env.example is committed
+.env
+.env.dev
+.env.qa
+.env.prod
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Alembic
+migrations/versions/*.py
+!migrations/versions/.gitkeep

@@ -1,0 +1,71 @@
+services:
+    app:
+        build: .
+        ports:
+            - "${APP_PORT}:${APP_PORT}"
+        environment:
+            APP_ENV: ${APP_ENV}
+            APP_PORT: ${APP_PORT}
+            LOG_LEVEL: ${LOG_LEVEL}
+            # Assembled here so the app reads one clean variable, no string manipulation in code.
+            DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+            ALEMBIC_DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+            # Redis host is the service name inside the Docker network.
+            REDIS_HOST: redis
+            REDIS_PORT: ${REDIS_PORT}
+            REDIS_PASSWORD: ${REDIS_PASSWORD}
+            SESSION_SECRET: ${SESSION_SECRET}
+            SESSION_EXPIRE_SECONDS: ${SESSION_EXPIRE_SECONDS}
+        depends_on:
+            db:
+                condition: service_healthy
+            redis:
+                condition: service_healthy
+
+    migrator:
+        build: .
+        command: alembic upgrade head
+        environment:
+            ALEMBIC_DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+        volumes:
+            # Mount versions dir so generated migration files are written to the host.
+            # This means `alembic revision --autogenerate` works from inside the container
+            # and the output file lands in your local migrations/versions/ ready to commit.
+            - ./migrations/versions:/app/migrations/versions
+        depends_on:
+            db:
+                condition: service_healthy
+        # profiles prevents this service from starting with `docker compose up`.
+        # Run explicitly with: docker compose --env-file .env.dev run --rm migrator
+        profiles:
+            - tools
+
+    db:
+        image: postgres:18.1
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
+        volumes:
+            - postgres_data:/var/lib/postgresql
+        ports:
+            - "${POSTGRES_PORT}:5432"
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+            interval: 5s
+            timeout: 5s
+            retries: 5
+
+    redis:
+        image: redis:8.4
+        command: redis-server --requirepass ${REDIS_PASSWORD}
+        ports:
+            - "${REDIS_PORT}:6379"
+        healthcheck:
+            test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "${REDIS_PASSWORD}", "ping"]
+            interval: 5s
+            timeout: 5s
+            retries: 5
+
+volumes:
+    postgres_data:

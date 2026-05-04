@@ -1,0 +1,1993 @@
+{
+    "America East": {
+        "acronym": "AE",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.75
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Albany",
+                "primary_color": "#461660"
+            },
+            {
+                "name": "Binghamton",
+                "primary_color": "#005A43"
+            },
+            {
+                "name": "Bryant",
+                "primary_color": "#B4975B"
+            },
+            {
+                "name": "Maine",
+                "primary_color": "#B0D7FF"
+            },
+            {
+                "name": "NJIT",
+                "primary_color": "#D22630"
+            },
+            {
+                "name": "New Hampshire",
+                "primary_color": "#041E42"
+            },
+            {
+                "name": "UMBC",
+                "primary_color": "#FFC20E"
+            },
+            {
+                "name": "UMass Lowell",
+                "primary_color": "#003DA5"
+            },
+            {
+                "name": "Vermont",
+                "primary_color": "#154734"
+            }
+        ]
+    },
+    "American": {
+        "acronym": "AAC",
+        "prestige": {
+            "tier": 3,
+            "mean": 5.75
+        },
+        "tournament": {
+            "qualifiers": 13,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Charlotte",
+                "primary_color": "#046A38"
+            },
+            {
+                "name": "East Carolina",
+                "primary_color": "#592A8A"
+            },
+            {
+                "name": "Florida Atlantic",
+                "primary_color": "#003366"
+            },
+            {
+                "name": "Memphis",
+                "primary_color": "#003087"
+            },
+            {
+                "name": "North Texas",
+                "primary_color": "#00853E"
+            },
+            {
+                "name": "Rice",
+                "primary_color": "#00205B"
+            },
+            {
+                "name": "South Florida",
+                "primary_color": "#006747"
+            },
+            {
+                "name": "Temple",
+                "primary_color": "#9D2235"
+            },
+            {
+                "name": "Tulane",
+                "primary_color": "#006747"
+            },
+            {
+                "name": "Tulsa",
+                "primary_color": "#002D72"
+            },
+            {
+                "name": "UAB",
+                "primary_color": "#006341"
+            },
+            {
+                "name": "UTSA",
+                "primary_color": "#F15A22"
+            },
+            {
+                "name": "Wichita St.",
+                "primary_color": "#FFCD00"
+            }
+        ]
+    },
+    "Atlantic Coast": {
+        "acronym": "ACC",
+        "prestige": {
+            "tier": 1,
+            "mean": 7.0
+        },
+        "tournament": {
+            "qualifiers": 15,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Boston College",
+                "primary_color": "#98002E"
+            },
+            {
+                "name": "California",
+                "primary_color": "#003262"
+            },
+            {
+                "name": "Clemson",
+                "primary_color": "#F56600"
+            },
+            {
+                "name": "Duke",
+                "primary_color": "#003087"
+            },
+            {
+                "name": "Florida St.",
+                "primary_color": "#782F40"
+            },
+            {
+                "name": "Georgia Tech",
+                "primary_color": "#B3A369"
+            },
+            {
+                "name": "Louisville",
+                "primary_color": "#AD0000"
+            },
+            {
+                "name": "Miami",
+                "primary_color": "#F47321"
+            },
+            {
+                "name": "NC St.",
+                "primary_color": "#CC0000"
+            },
+            {
+                "name": "North Carolina",
+                "primary_color": "#7BAFD4"
+            },
+            {
+                "name": "Notre Dame",
+                "primary_color": "#00843D"
+            },
+            {
+                "name": "Pittsburgh",
+                "primary_color": "#003594"
+            },
+            {
+                "name": "SMU",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Stanford",
+                "primary_color": "#8C1515"
+            },
+            {
+                "name": "Syracuse",
+                "primary_color": "#F76900"
+            },
+            {
+                "name": "Virginia",
+                "primary_color": "#F84C1E"
+            },
+            {
+                "name": "Virginia Tech",
+                "primary_color": "#630031"
+            },
+            {
+                "name": "Wake Forest",
+                "primary_color": "#9E7E38"
+            }
+        ]
+    },
+    "Atlantic Sun": {
+        "acronym": "ASUN",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.25
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Austin Peay",
+                "primary_color": "#C41E3A"
+            },
+            {
+                "name": "Bellarmine",
+                "primary_color": "#752936"
+            },
+            {
+                "name": "Central Arkansas",
+                "primary_color": "#4F2D7F"
+            },
+            {
+                "name": "Eastern Kentucky",
+                "primary_color": "#8A0039"
+            },
+            {
+                "name": "FGCU",
+                "primary_color": "#002D72"
+            },
+            {
+                "name": "Jacksonville",
+                "primary_color": "#004E44"
+            },
+            {
+                "name": "Lipscomb",
+                "primary_color": "#331E54"
+            },
+            {
+                "name": "North Alabama",
+                "primary_color": "#46166B"
+            },
+            {
+                "name": "North Florida",
+                "primary_color": "#00246B"
+            },
+            {
+                "name": "Queens",
+                "primary_color": "#192C66"
+            },
+            {
+                "name": "Stetson",
+                "primary_color": "#00523E"
+            },
+            {
+                "name": "West Georgia",
+                "primary_color": "#DA2128"
+            }
+        ]
+    },
+    "Atlantic Ten": {
+        "acronym": "A10",
+        "prestige": {
+            "tier": 3,
+            "mean": 5.5
+        },
+        "tournament": {
+            "qualifiers": 15,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Davidson",
+                "primary_color": "#AC1A2F"
+            },
+            {
+                "name": "Dayton",
+                "primary_color": "#F80228"
+            },
+            {
+                "name": "Duquesne",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "Fordham",
+                "primary_color": "#860038"
+            },
+            {
+                "name": "George Mason",
+                "primary_color": "#006633"
+            },
+            {
+                "name": "George Washington",
+                "primary_color": "#E2CB92"
+            },
+            {
+                "name": "La Salle",
+                "primary_color": "#FFCC00"
+            },
+            {
+                "name": "Loyola Chicago",
+                "primary_color": "#922247"
+            },
+            {
+                "name": "Massachusetts",
+                "primary_color": "#971B2F"
+            },
+            {
+                "name": "Rhode Island",
+                "primary_color": "#68ABE8"
+            },
+            {
+                "name": "Richmond",
+                "primary_color": "#000066"
+            },
+            {
+                "name": "Saint Bonaventure",
+                "primary_color": "#54261A"
+            },
+            {
+                "name": "Saint Joseph",
+                "primary_color": "#9F1B32"
+            },
+            {
+                "name": "Saint Louis",
+                "primary_color": "#003DA5"
+            },
+            {
+                "name": "VCU",
+                "primary_color": "#FFB300"
+            }
+        ]
+    },
+    "Big East": {
+        "acronym": "BE",
+        "prestige": {
+            "tier": 2,
+            "mean": 6.5
+        },
+        "tournament": {
+            "qualifiers": 11,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Butler",
+                "primary_color": "#747678"
+            },
+            {
+                "name": "Creighton",
+                "primary_color": "#005CA9"
+            },
+            {
+                "name": "DePaul",
+                "primary_color": "#005EB8"
+            },
+            {
+                "name": "Georgetown",
+                "primary_color": "#041E42"
+            },
+            {
+                "name": "Marquette",
+                "primary_color": "#FFCC00"
+            },
+            {
+                "name": "Providence",
+                "primary_color": "#8A8D8F"
+            },
+            {
+                "name": "Saint John",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "Seton Hall",
+                "primary_color": "#004488"
+            },
+            {
+                "name": "Connecticut",
+                "primary_color": "#000E2F"
+            },
+            {
+                "name": "Villanova",
+                "primary_color": "#00205B"
+            },
+            {
+                "name": "Xavier",
+                "primary_color": "#0C2340"
+            }
+        ]
+    },
+    "Big Sky": {
+        "acronym": "BSK",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.5
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "E. Washington",
+                "primary_color": "#A10022"
+            },
+            {
+                "name": "Idaho",
+                "primary_color": "#B3A369"
+            },
+            {
+                "name": "Idaho St.",
+                "primary_color": "#FF671F"
+            },
+            {
+                "name": "Montana",
+                "primary_color": "#660033"
+            },
+            {
+                "name": "Montana St.",
+                "primary_color": "#B9975B"
+            },
+            {
+                "name": "N. Colorado",
+                "primary_color": "#013C65"
+            },
+            {
+                "name": "Northern Arizona",
+                "primary_color": "#003466"
+            },
+            {
+                "name": "Portland St.",
+                "primary_color": "#154734"
+            },
+            {
+                "name": "Sacramento St.",
+                "primary_color": "#043927"
+            },
+            {
+                "name": "Weber St.",
+                "primary_color": "#4B2682"
+            }
+        ]
+    },
+    "Big South": {
+        "acronym": "BSO",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.25
+        },
+        "tournament": {
+            "qualifiers": 9,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Charleston S.",
+                "primary_color": "#A8996E"
+            },
+            {
+                "name": "Gardner-Webb",
+                "primary_color": "#BF2F37"
+            },
+            {
+                "name": "High Point",
+                "primary_color": "#330072"
+            },
+            {
+                "name": "Longwood",
+                "primary_color": "#15213B"
+            },
+            {
+                "name": "Presbyterian",
+                "primary_color": "#0060A9"
+            },
+            {
+                "name": "Radford",
+                "primary_color": "#C2011B"
+            },
+            {
+                "name": "SC Upstate",
+                "primary_color": "#00703C"
+            },
+            {
+                "name": "NC Asheville",
+                "primary_color": "#003DA5"
+            },
+            {
+                "name": "Winthrop",
+                "primary_color": "#F0B323"
+            }
+        ]
+    },
+    "Big Ten": {
+        "acronym": "B10",
+        "prestige": {
+            "tier": 1,
+            "mean": 6.75
+        },
+        "tournament": {
+            "qualifiers": 15,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Illinois",
+                "primary_color": "#E84A27"
+            },
+            {
+                "name": "Indiana",
+                "primary_color": "#990000"
+            },
+            {
+                "name": "Iowa",
+                "primary_color": "#FFCD00"
+            },
+            {
+                "name": "Maryland",
+                "primary_color": "#E03A3E"
+            },
+            {
+                "name": "Michigan",
+                "primary_color": "#FFCB05"
+            },
+            {
+                "name": "Michigan St.",
+                "primary_color": "#18453B"
+            },
+            {
+                "name": "Minnesota",
+                "primary_color": "#7A0019"
+            },
+            {
+                "name": "Nebraska",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Northwestern",
+                "primary_color": "#4E2A84"
+            },
+            {
+                "name": "Ohio St.",
+                "primary_color": "#BB0000"
+            },
+            {
+                "name": "Oregon",
+                "primary_color": "#154733"
+            },
+            {
+                "name": "Penn St.",
+                "primary_color": "#041E42"
+            },
+            {
+                "name": "Purdue",
+                "primary_color": "#CEB888"
+            },
+            {
+                "name": "Rutgers",
+                "primary_color": "#CC0033"
+            },
+            {
+                "name": "UCLA",
+                "primary_color": "#2D68C4"
+            },
+            {
+                "name": "USC",
+                "primary_color": "#9D2235"
+            },
+            {
+                "name": "Washington",
+                "primary_color": "#4B2E83"
+            },
+            {
+                "name": "Wisconsin",
+                "primary_color": "#C5050C"
+            }
+        ]
+    },
+    "Big Twelve": {
+        "acronym": "B12",
+        "prestige": {
+            "tier": 2,
+            "mean": 6.5
+        },
+        "tournament": {
+            "qualifiers": 16,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Arizona",
+                "primary_color": "#CC0033"
+            },
+            {
+                "name": "Arizona St.",
+                "primary_color": "#8C1D40"
+            },
+            {
+                "name": "BYU",
+                "primary_color": "#0062B8"
+            },
+            {
+                "name": "Baylor",
+                "primary_color": "#154734"
+            },
+            {
+                "name": "Cincinnati",
+                "primary_color": "#E00122"
+            },
+            {
+                "name": "Colorado",
+                "primary_color": "#CFB87C"
+            },
+            {
+                "name": "Houston",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Iowa St.",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Kansas",
+                "primary_color": "#0051BA"
+            },
+            {
+                "name": "Kansas St.",
+                "primary_color": "#512888"
+            },
+            {
+                "name": "Oklahoma St.",
+                "primary_color": "#FF7300"
+            },
+            {
+                "name": "TCU",
+                "primary_color": "#4D1979"
+            },
+            {
+                "name": "Texas Tech",
+                "primary_color": "#CC0000"
+            },
+            {
+                "name": "UCF",
+                "primary_color": "#BA9B37"
+            },
+            {
+                "name": "Utah",
+                "primary_color": "#CC0000"
+            },
+            {
+                "name": "West Virginia",
+                "primary_color": "#002855"
+            }
+        ]
+    },
+    "Big West": {
+        "acronym": "BW",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.5
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": [
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Cal St. Bakersfield",
+                "primary_color": "#003594"
+            },
+            {
+                "name": "Cal St. Fullerton",
+                "primary_color": "#DC8218"
+            },
+            {
+                "name": "Cal St. Northridge",
+                "primary_color": "#CE1126"
+            },
+            {
+                "name": "Cal Poly",
+                "primary_color": "#003831"
+            },
+            {
+                "name": "UC San Diego",
+                "primary_color": "#182B49"
+            },
+            {
+                "name": "UC Davis",
+                "primary_color": "#002855"
+            },
+            {
+                "name": "Hawaii",
+                "primary_color": "#024731"
+            },
+            {
+                "name": "UC Irvine",
+                "primary_color": "#0C2340"
+            },
+            {
+                "name": "Long Beach St.",
+                "primary_color": "#FFC72A"
+            },
+            {
+                "name": "UC Riverside",
+                "primary_color": "#2D6CC0"
+            },
+            {
+                "name": "UC Santa Barbara",
+                "primary_color": "#003660"
+            }
+        ]
+    },
+    "Coastal Athletic": {
+        "acronym": "CAA",
+        "prestige": {
+            "tier": 4,
+            "mean": 4.75
+        },
+        "tournament": {
+            "qualifiers": 14,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Campbell",
+                "primary_color": "#F58025"
+            },
+            {
+                "name": "Charleston",
+                "primary_color": "#800000"
+            },
+            {
+                "name": "Delaware",
+                "primary_color": "#00539F"
+            },
+            {
+                "name": "Drexel",
+                "primary_color": "#00437B"
+            },
+            {
+                "name": "Elon",
+                "primary_color": "#73000A"
+            },
+            {
+                "name": "Hampton",
+                "primary_color": "#0060A9"
+            },
+            {
+                "name": "Hofstra",
+                "primary_color": "#0B1E73"
+            },
+            {
+                "name": "Monmouth",
+                "primary_color": "#041E42"
+            },
+            {
+                "name": "NC A&T",
+                "primary_color": "#F3B237"
+            },
+            {
+                "name": "Northeastern",
+                "primary_color": "#D41B2C"
+            },
+            {
+                "name": "Stony Brook",
+                "primary_color": "#990000"
+            },
+            {
+                "name": "Towson",
+                "primary_color": "#FFBB00"
+            },
+            {
+                "name": "NC Wilmington",
+                "primary_color": "#006666"
+            },
+            {
+                "name": "William & Mary",
+                "primary_color": "#115740"
+            }
+        ]
+    },
+    "Conference USA": {
+        "acronym": "CUSA",
+        "prestige": {
+            "tier": 3,
+            "mean": 5.0
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "FIU",
+                "primary_color": "#081E3F"
+            },
+            {
+                "name": "Jacksonville St.",
+                "primary_color": "#CC0000"
+            },
+            {
+                "name": "Kennesaw St.",
+                "primary_color": "#FDBB30"
+            },
+            {
+                "name": "Liberty",
+                "primary_color": "#C41230"
+            },
+            {
+                "name": "Louisiana Tech",
+                "primary_color": "#002F8B"
+            },
+            {
+                "name": "Middle Tennessee",
+                "primary_color": "#0066CC"
+            },
+            {
+                "name": "New Mexico St.",
+                "primary_color": "#861F41"
+            },
+            {
+                "name": "Sam Houston",
+                "primary_color": "#FE5100"
+            },
+            {
+                "name": "UTEP",
+                "primary_color": "#FF8200"
+            },
+            {
+                "name": "Western Kentucky",
+                "primary_color": "#C60C30"
+            }
+        ]
+    },
+    "Horizon": {
+        "acronym": "HL",
+        "prestige": {
+            "tier": 4,
+            "mean": 4.5
+        },
+        "tournament": {
+            "qualifiers": 11,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Cleveland St.",
+                "primary_color": "#006747"
+            },
+            {
+                "name": "Detroit Mercy",
+                "primary_color": "#A6093D"
+            },
+            {
+                "name": "Green Bay",
+                "primary_color": "#006747"
+            },
+            {
+                "name": "IU Indianapolis",
+                "primary_color": "#DFD1A7"
+            },
+            {
+                "name": "Milwaukee",
+                "primary_color": "#FFBD00"
+            },
+            {
+                "name": "Northern Kentucky",
+                "primary_color": "#FFC72C"
+            },
+            {
+                "name": "Oakland",
+                "primary_color": "#B59A57"
+            },
+            {
+                "name": "Purdue Ft. Wayne",
+                "primary_color": "#002F6C"
+            },
+            {
+                "name": "Robert Morris",
+                "primary_color": "#14234B"
+            },
+            {
+                "name": "Wright St.",
+                "primary_color": "#026937"
+            },
+            {
+                "name": "Youngstown St.",
+                "primary_color": "#C8102E"
+            }
+        ]
+    },
+    "Ivy": {
+        "acronym": "IVY",
+        "prestige": {
+            "tier": 4,
+            "mean": 4.5
+        },
+        "tournament": {
+            "qualifiers": 4,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Brown",
+                "primary_color": "#4E3629"
+            },
+            {
+                "name": "Columbia",
+                "primary_color": "#9BCBEB"
+            },
+            {
+                "name": "Cornell",
+                "primary_color": "#B31B1B"
+            },
+            {
+                "name": "Dartmouth",
+                "primary_color": "#046A38"
+            },
+            {
+                "name": "Harvard",
+                "primary_color": "#A41034"
+            },
+            {
+                "name": "Penn",
+                "primary_color": "#990000"
+            },
+            {
+                "name": "Princeton",
+                "primary_color": "#FF671F"
+            },
+            {
+                "name": "Yale",
+                "primary_color": "#00356B"
+            }
+        ]
+    },
+    "Metro Atlantic": {
+        "acronym": "MAAC",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.5
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Canisius",
+                "primary_color": "#FFBA00"
+            },
+            {
+                "name": "Fairfield",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Iona",
+                "primary_color": "#6F2C3F"
+            },
+            {
+                "name": "Manhattan",
+                "primary_color": "#00703C"
+            },
+            {
+                "name": "Marist",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Merrimack",
+                "primary_color": "#003768"
+            },
+            {
+                "name": "Mount Saint Mary",
+                "primary_color": "#002855"
+            },
+            {
+                "name": "Niagara",
+                "primary_color": "#582C83"
+            },
+            {
+                "name": "Quinnipiac",
+                "primary_color": "#0C2340"
+            },
+            {
+                "name": "Rider",
+                "primary_color": "#981E32"
+            },
+            {
+                "name": "Sacred Heart",
+                "primary_color": "#CE1141"
+            },
+            {
+                "name": "Saint Peter",
+                "primary_color": "#0072CE"
+            },
+            {
+                "name": "Siena",
+                "primary_color": "#006747"
+            }
+        ]
+    },
+    "Mid American": {
+        "acronym": "MAC",
+        "prestige": {
+            "tier": 4,
+            "mean": 4.25
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Akron",
+                "primary_color": "#A89968"
+            },
+            {
+                "name": "Ball St.",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "Bowling Green",
+                "primary_color": "#FE5000"
+            },
+            {
+                "name": "Buffalo",
+                "primary_color": "#005BBB"
+            },
+            {
+                "name": "Central Michigan",
+                "primary_color": "#6A0032"
+            },
+            {
+                "name": "Eastern Michigan",
+                "primary_color": "#006633"
+            },
+            {
+                "name": "Kent St.",
+                "primary_color": "#002664"
+            },
+            {
+                "name": "Miami of Ohio",
+                "primary_color": "#B61E2E"
+            },
+            {
+                "name": "Northern Illinois",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "Ohio",
+                "primary_color": "#00694E"
+            },
+            {
+                "name": "Toledo",
+                "primary_color": "#FFDA00"
+            },
+            {
+                "name": "Western Michigan",
+                "primary_color": "#6C4023"
+            }
+        ]
+    },
+    "Mid Eastern": {
+        "acronym": "MEAC",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.0
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Coppin St.",
+                "primary_color": "#FFC915"
+            },
+            {
+                "name": "Delaware St.",
+                "primary_color": "#72CDF4"
+            },
+            {
+                "name": "UMD Eastern Shore",
+                "primary_color": "#862633"
+            },
+            {
+                "name": "Howard",
+                "primary_color": "#E51937"
+            },
+            {
+                "name": "Morgan St.",
+                "primary_color": "#1B4383"
+            },
+            {
+                "name": "NC Central",
+                "primary_color": "#880023"
+            },
+            {
+                "name": "Norfolk",
+                "primary_color": "#007A53"
+            },
+            {
+                "name": "South Carolina St.",
+                "primary_color": "#862633"
+            }
+        ]
+    },
+    "Missouri Valley": {
+        "acronym": "MVC",
+        "prestige": {
+            "tier": 3,
+            "mean": 5.25
+        },
+        "tournament": {
+            "qualifiers": 12,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Belmont",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Bradley",
+                "primary_color": "#A50000"
+            },
+            {
+                "name": "Drake",
+                "primary_color": "#004477"
+            },
+            {
+                "name": "Evansville",
+                "primary_color": "#52237F"
+            },
+            {
+                "name": "Illinois St.",
+                "primary_color": "#CE1126"
+            },
+            {
+                "name": "Indiana St.",
+                "primary_color": "#0142BC"
+            },
+            {
+                "name": "Missouri St.",
+                "primary_color": "#5E0009"
+            },
+            {
+                "name": "Murray St.",
+                "primary_color": "#ECAC00"
+            },
+            {
+                "name": "Northern Iowa",
+                "primary_color": "#4B116F"
+            },
+            {
+                "name": "S. Illinois",
+                "primary_color": "#720000"
+            },
+            {
+                "name": "UIC",
+                "primary_color": "#AC1E2D"
+            },
+            {
+                "name": "Valparaiso",
+                "primary_color": "#613318"
+            }
+        ]
+    },
+    "Mountain West": {
+        "acronym": "MW",
+        "prestige": {
+            "tier": 3,
+            "mean": 5.25
+        },
+        "tournament": {
+            "qualifiers": 11,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Air Force",
+                "primary_color": "#003087"
+            },
+            {
+                "name": "Boise St.",
+                "primary_color": "#0033A0"
+            },
+            {
+                "name": "Colorado St.",
+                "primary_color": "#1E4D2B"
+            },
+            {
+                "name": "Fresno St.",
+                "primary_color": "#DB0032"
+            },
+            {
+                "name": "Nevada",
+                "primary_color": "#003366"
+            },
+            {
+                "name": "New Mexico",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "San Diego St.",
+                "primary_color": "#A6192E"
+            },
+            {
+                "name": "San Jose St.",
+                "primary_color": "#0055A2"
+            },
+            {
+                "name": "UNLV",
+                "primary_color": "#CF0A2C"
+            },
+            {
+                "name": "Utah St.",
+                "primary_color": "#00263A"
+            },
+            {
+                "name": "Wyoming",
+                "primary_color": "#492F24"
+            }
+        ]
+    },
+    "Northeast": {
+        "acronym": "NEC",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.0
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Central Connecticut",
+                "primary_color": "#00539B"
+            },
+            {
+                "name": "Chicago St.",
+                "primary_color": "#006666"
+            },
+            {
+                "name": "Fairleigh Dickinson",
+                "primary_color": "#72293C"
+            },
+            {
+                "name": "Le Moyne",
+                "primary_color": "#00452A"
+            },
+            {
+                "name": "Long Island",
+                "primary_color": "#69B3E7"
+            },
+            {
+                "name": "Mercyhurst",
+                "primary_color": "#07594D"
+            },
+            {
+                "name": "New Haven",
+                "primary_color": "#FFC423"
+            },
+            {
+                "name": "Saint Francis",
+                "primary_color": "#BD1F25"
+            },
+            {
+                "name": "Stonehill",
+                "primary_color": "#2F2975"
+            },
+            {
+                "name": "Wagner",
+                "primary_color": "#00483A"
+            }
+        ]
+    },
+    "Ohio Valley": {
+        "acronym": "OVC",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.75
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": [
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Eastern Illinois",
+                "primary_color": "#004B83"
+            },
+            {
+                "name": "Lindenwood",
+                "primary_color": "#B5A36A"
+            },
+            {
+                "name": "Arkansas Little-Rock",
+                "primary_color": "#6E2639"
+            },
+            {
+                "name": "UT Martin",
+                "primary_color": "#F79728"
+            },
+            {
+                "name": "Morehead St.",
+                "primary_color": "#005EB8"
+            },
+            {
+                "name": "Southeast Missouri St.",
+                "primary_color": "#DA1A32"
+            },
+            {
+                "name": "SIU Edwardsville",
+                "primary_color": "#EF3829"
+            },
+            {
+                "name": "Southern Indiana",
+                "primary_color": "#CF102D"
+            },
+            {
+                "name": "Tennessee St.",
+                "primary_color": "#00539F"
+            },
+            {
+                "name": "Tennessee Tech",
+                "primary_color": "#4F2984"
+            },
+            {
+                "name": "Western Illinois",
+                "primary_color": "#663399"
+            }
+        ]
+    },
+    "Patriot": {
+        "acronym": "PL",
+        "prestige": {
+            "tier": 5,
+            "mean": 3.5
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "American",
+                "primary_color": "#143D8D"
+            },
+            {
+                "name": "Army",
+                "primary_color": "#D4BF91"
+            },
+            {
+                "name": "Boston",
+                "primary_color": "#A3011B"
+            },
+            {
+                "name": "Bucknell",
+                "primary_color": "#E87722"
+            },
+            {
+                "name": "Colgate",
+                "primary_color": "#E10028"
+            },
+            {
+                "name": "Holy Cross",
+                "primary_color": "#602D89"
+            },
+            {
+                "name": "Lafayette",
+                "primary_color": "#A8996E"
+            },
+            {
+                "name": "Lehigh",
+                "primary_color": "#653600"
+            },
+            {
+                "name": "Loyola Maryland",
+                "primary_color": "#00694E"
+            },
+            {
+                "name": "Navy",
+                "primary_color": "#00205B"
+            }
+        ]
+    },
+    "South Eastern": {
+        "acronym": "SEC",
+        "prestige": {
+            "tier": 1,
+            "mean": 6.75
+        },
+        "tournament": {
+            "qualifiers": 16,
+            "byes": [
+                [
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Alabama",
+                "primary_color": "#9E1B32"
+            },
+            {
+                "name": "Arkansas",
+                "primary_color": "#9D2235"
+            },
+            {
+                "name": "Auburn",
+                "primary_color": "#E87722"
+            },
+            {
+                "name": "Florida",
+                "primary_color": "#0021A5"
+            },
+            {
+                "name": "Georgia",
+                "primary_color": "#BA0C2F"
+            },
+            {
+                "name": "Kentucky",
+                "primary_color": "#0033A0"
+            },
+            {
+                "name": "LSU",
+                "primary_color": "#461D7C"
+            },
+            {
+                "name": "Mississippi St.",
+                "primary_color": "#660000"
+            },
+            {
+                "name": "Missouri",
+                "primary_color": "#F1B82D"
+            },
+            {
+                "name": "Ole Miss",
+                "primary_color": "#006BA6"
+            },
+            {
+                "name": "Oklahoma",
+                "primary_color": "#841617"
+            },
+            {
+                "name": "South Carolina",
+                "primary_color": "#73000A"
+            },
+            {
+                "name": "Tennessee",
+                "primary_color": "#FF8200"
+            },
+            {
+                "name": "Texas",
+                "primary_color": "#BF5700"
+            },
+            {
+                "name": "Texas A&M",
+                "primary_color": "#500000"
+            },
+            {
+                "name": "Vanderbilt",
+                "primary_color": "#866D4B"
+            }
+        ]
+    },
+    "Southern": {
+        "acronym": "SOC",
+        "prestige": {
+            "tier": 5,
+            "mean": 4.0
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Chattanooga",
+                "primary_color": "#E0AA0F"
+            },
+            {
+                "name": "East Tennessee St.",
+                "primary_color": "#002D62"
+            },
+            {
+                "name": "Furman",
+                "primary_color": "#582C83"
+            },
+            {
+                "name": "Mercer",
+                "primary_color": "#F76800"
+            },
+            {
+                "name": "Samford",
+                "primary_color": "#002649"
+            },
+            {
+                "name": "Citadel",
+                "primary_color": "#3975B7"
+            },
+            {
+                "name": "NC Greensboro",
+                "primary_color": "#0F2044"
+            },
+            {
+                "name": "VMI",
+                "primary_color": "#A71F23"
+            },
+            {
+                "name": "Western Carolina",
+                "primary_color": "#592C88"
+            },
+            {
+                "name": "Wofford",
+                "primary_color": "#C7B37F"
+            }
+        ]
+    },
+    "Southland": {
+        "acronym": "SLC",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.0
+        },
+        "tournament": {
+            "qualifiers": 8,
+            "byes": [
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Corpus Christi",
+                "primary_color": "#0067C5"
+            },
+            {
+                "name": "East Texas A&M",
+                "primary_color": "#A10022"
+            },
+            {
+                "name": "Houston Christian",
+                "primary_color": "#1C4E9D"
+            },
+            {
+                "name": "Incarnate Word",
+                "primary_color": "#CB333B"
+            },
+            {
+                "name": "Lamar",
+                "primary_color": "#DC0032"
+            },
+            {
+                "name": "McNeese",
+                "primary_color": "#00529B"
+            },
+            {
+                "name": "New Orleans",
+                "primary_color": "#005CA6"
+            },
+            {
+                "name": "Nicholls",
+                "primary_color": "#AE132A"
+            },
+            {
+                "name": "Northwestern St.",
+                "primary_color": "#4E2A84"
+            },
+            {
+                "name": "Rio Grande Valley",
+                "primary_color": "#FFA300"
+            },
+            {
+                "name": "SE Louisiana",
+                "primary_color": "#006341"
+            },
+            {
+                "name": "Stephen F. Austin",
+                "primary_color": "#613393"
+            }
+        ]
+    },
+    "Southwestern": {
+        "acronym": "SWAC",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.0
+        },
+        "tournament": {
+            "qualifiers": 10,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Alabama A&M",
+                "primary_color": "#660000"
+            },
+            {
+                "name": "Alabama St.",
+                "primary_color": "#C99700"
+            },
+            {
+                "name": "Alcorn St.",
+                "primary_color": "#4B306A"
+            },
+            {
+                "name": "Arkansas Pine Bluff",
+                "primary_color": "#EEB310"
+            },
+            {
+                "name": "Bethune-Cookman",
+                "primary_color": "#F2A900"
+            },
+            {
+                "name": "Florida A&M",
+                "primary_color": "#1B5633"
+            },
+            {
+                "name": "Grambling",
+                "primary_color": "#EAA921"
+            },
+            {
+                "name": "Jackson St.",
+                "primary_color": "#002147"
+            },
+            {
+                "name": "Mississippi Valley St.",
+                "primary_color": "#00703C"
+            },
+            {
+                "name": "Prairie View A&M",
+                "primary_color": "#330066"
+            },
+            {
+                "name": "Southern",
+                "primary_color": "#58B6E7"
+            },
+            {
+                "name": "Texas Southern",
+                "primary_color": "#7C183E"
+            }
+        ]
+    },
+    "Summit": {
+        "acronym": "SL",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.25
+        },
+        "tournament": {
+            "qualifiers": 9,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Denver",
+                "primary_color": "#8B2332"
+            },
+            {
+                "name": "Kansas City",
+                "primary_color": "#3A7BC8"
+            },
+            {
+                "name": "North Dakota",
+                "primary_color": "#009A44"
+            },
+            {
+                "name": "North Dakota St.",
+                "primary_color": "#0A5640"
+            },
+            {
+                "name": "Omaha",
+                "primary_color": "#D71920"
+            },
+            {
+                "name": "Oral Roberts",
+                "primary_color": "#C5B783"
+            },
+            {
+                "name": "Saint Thomas",
+                "primary_color": "#512873"
+            },
+            {
+                "name": "South Dakota",
+                "primary_color": "#AD0000"
+            },
+            {
+                "name": "South Dakota St.",
+                "primary_color": "#FFD100"
+            }
+        ]
+    },
+    "Sun Belt": {
+        "acronym": "SBC",
+        "prestige": {
+            "tier": 4,
+            "mean": 4.25
+        },
+        "tournament": {
+            "qualifiers": 14,
+            "byes": [
+                [
+                    2,
+                    5
+                ],
+                [
+                    2,
+                    4
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Appalachian St.",
+                "primary_color": "#FFCC00"
+            },
+            {
+                "name": "Arkansas St.",
+                "primary_color": "#CC092F"
+            },
+            {
+                "name": "Coastal Carolina",
+                "primary_color": "#006F71"
+            },
+            {
+                "name": "Georgia Southern",
+                "primary_color": "#011E41"
+            },
+            {
+                "name": "Georgia St.",
+                "primary_color": "#0039A6"
+            },
+            {
+                "name": "James Madison",
+                "primary_color": "#450084"
+            },
+            {
+                "name": "Louisiana",
+                "primary_color": "#CE181E"
+            },
+            {
+                "name": "Marshall",
+                "primary_color": "#00B140"
+            },
+            {
+                "name": "Monroe",
+                "primary_color": "#840029"
+            },
+            {
+                "name": "Old Dominion",
+                "primary_color": "#003057"
+            },
+            {
+                "name": "South Alabama",
+                "primary_color": "#BF0D3E"
+            },
+            {
+                "name": "Southern Miss",
+                "primary_color": "#FFAB00"
+            },
+            {
+                "name": "Texas St.",
+                "primary_color": "#501214"
+            },
+            {
+                "name": "Troy",
+                "primary_color": "#8A2432"
+            }
+        ]
+    },
+    "West Coast": {
+        "acronym": "WCC",
+        "prestige": {
+            "tier": 2,
+            "mean": 6.0
+        },
+        "tournament": {
+            "qualifiers": 11,
+            "byes": [
+                [
+                    2,
+                    4
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    2,
+                    2
+                ],
+                [
+                    3,
+                    1
+                ]
+            ]
+        },
+        "teams": [
+            {
+                "name": "Gonzaga",
+                "primary_color": "#C8102E"
+            },
+            {
+                "name": "Loyola Marymount",
+                "primary_color": "#B62B3A"
+            },
+            {
+                "name": "Oregon St.",
+                "primary_color": "#DC4405"
+            },
+            {
+                "name": "Pacific",
+                "primary_color": "#E35205"
+            },
+            {
+                "name": "Pepperdine",
+                "primary_color": "#00205C"
+            },
+            {
+                "name": "Portland",
+                "primary_color": "#1E1656"
+            },
+            {
+                "name": "Saint Mary",
+                "primary_color": "#D80024"
+            },
+            {
+                "name": "San Diego",
+                "primary_color": "#207BC1"
+            },
+            {
+                "name": "San Francisco",
+                "primary_color": "#FDBB30"
+            },
+            {
+                "name": "Santa Clara",
+                "primary_color": "#862633"
+            },
+            {
+                "name": "Washington St.",
+                "primary_color": "#981E32"
+            }
+        ]
+    },
+    "Western Athletic": {
+        "acronym": "WAC",
+        "prestige": {
+            "tier": 6,
+            "mean": 3.25
+        },
+        "tournament": {
+            "qualifiers": 9,
+            "byes": []
+        },
+        "teams": [
+            {
+                "name": "Abilene Christian",
+                "primary_color": "#4F2170"
+            },
+            {
+                "name": "Arlington",
+                "primary_color": "#0064B1"
+            },
+            {
+                "name": "California Baptist",
+                "primary_color": "#002554"
+            },
+            {
+                "name": "Grand Canyon",
+                "primary_color": "#522398"
+            },
+            {
+                "name": "Seattle",
+                "primary_color": "#AA0000"
+            },
+            {
+                "name": "Southern Utah",
+                "primary_color": "#C41425"
+            },
+            {
+                "name": "Tarleton St.",
+                "primary_color": "#4F2D7F"
+            },
+            {
+                "name": "Utah Tech",
+                "primary_color": "#003058"
+            },
+            {
+                "name": "Utah Valley",
+                "primary_color": "#275D38"
+            }
+        ]
+    }
+}

@@ -14,6 +14,5 @@ dist/
 build/
 *.egg-info/
 
-# Alembic
-migrations/versions/*.py
-!migrations/versions/.gitkeep
+# Alembic — version files ARE committed so CI can run migrations
+migrations/versions/.gitkeep

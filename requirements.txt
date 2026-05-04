@@ -1,7 +1,6 @@
 msgspec>=0.21.1
 orjson>=3.11.8
 redis[hiredis]>=7.4.0
-isort>=8.0.1
 blacksheep>=2.6.2
 uvicorn[standard]>=0.46.0
 colorlog>=6.10.1

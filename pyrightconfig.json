@@ -1,0 +1,6 @@
+{
+  "typeCheckingMode": "standard",
+  "pythonVersion": "3.14",
+  "include": ["website", "migrations"],
+  "exclude": ["migrations/versions", ".venv", "venv", "**/node_modules", "**/__pycache__", "**/.*"]
+}

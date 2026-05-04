@@ -2,6 +2,7 @@ import datetime
 
 from msgspec import Struct, field
 
+__all__ = ["Session"]
 
 class Session(Struct, kw_only=True, dict=True):
     id: int

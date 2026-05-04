@@ -3,6 +3,7 @@ from typing import Self
 
 from msgspec import Struct, field
 
+__all__ = ["Career"]
 
 class Career(Struct, kw_only=True, dict=True):
     id: int

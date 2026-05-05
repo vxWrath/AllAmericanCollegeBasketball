@@ -40,12 +40,12 @@ class Career(Struct, kw_only=True, dict=True):
     def update_last_played_at(self) -> Self:
         self.last_played_at = datetime.datetime.now(tz=datetime.UTC)
         return self
-    
+
     def career_length(self) -> int:
         return self.current_season - min(stint.start_season for stint in self.coaching_stints.values()) + 1
 
     def career_wins(self) -> int:
         return sum(stint.wins for stint in self.coaching_stints.values())
-    
+
     def career_losses(self) -> int:
         return sum(stint.losses for stint in self.coaching_stints.values())

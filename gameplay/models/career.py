@@ -33,7 +33,7 @@ class Career(Struct, kw_only=True, dict=True):
     rng_seed: int
     current_season: int
     current_week: int
-    current_team_id: str
+    current_team_id: int
 
     coaching_stints: dict[int, CoachingStintStats] = field(default_factory=dict)
 

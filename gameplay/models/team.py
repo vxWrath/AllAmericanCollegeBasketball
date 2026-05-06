@@ -2,8 +2,10 @@ from typing import TYPE_CHECKING, Any
 
 from msgspec import Struct
 
+from ..utils import MISSING
+
 if TYPE_CHECKING:
-    from ..session_loader import SessionLoader
+    from ..coach_session import CoachSession
     from .game_log import GameLog
     from .player import Player
 
@@ -42,6 +44,6 @@ class Team(Struct, kw_only=True, dict=True):
     def __post_init__(self) -> None:
         self.game_log: dict[int, GameLog] = {} # week by week log of games played, indexed by week number
         self.players: list[Player] = []
-        self.session_loader: SessionLoader = None
+        self.coach_session: CoachSession = MISSING
         self.meta: dict[str, Any] = {}  # conference prestige, tier, etc. from conferences.json
 

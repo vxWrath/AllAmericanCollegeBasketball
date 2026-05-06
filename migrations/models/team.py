@@ -19,13 +19,13 @@ class Team(Base):
     name: Mapped[str] = mapped_column(String(100), nullable=False)
     primary_color: Mapped[str] = mapped_column(String(7), nullable=False)  # hex color
 
-    preseason_rating: Mapped[float] = mapped_column(Float(precision=24), nullable=False, default=0.0)
+    preseason_rating: Mapped[float] = mapped_column(Float, nullable=False)
     preseason_rank: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
 
-    current_rating: Mapped[float] = mapped_column(Float(precision=24), nullable=False, default=0.0)
-    previous_rating: Mapped[float] = mapped_column(Float(precision=24), nullable=False, default=0.0)
+    current_rating: Mapped[float] = mapped_column(Float, nullable=False)
+    previous_rating: Mapped[float] = mapped_column(Float, nullable=False)
 
     current_rank: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
     previous_rank: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
 
-    accomplishments: Mapped[dict] = mapped_column(JSONB, nullable=False, default=dict)
+    accomplishments: Mapped[dict] = mapped_column(JSONB, nullable=False)

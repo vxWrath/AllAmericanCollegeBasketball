@@ -24,15 +24,15 @@ class GameLog(Base):
     location: Mapped[int] = mapped_column(SmallInteger, nullable=False)   # GameLocation enum
     type: Mapped[int] = mapped_column(SmallInteger, nullable=False)        # GameType enum
 
-    team_overall: Mapped[float] = mapped_column(Float(precision=24), nullable=False)
-    opponent_overall: Mapped[float] = mapped_column(Float(precision=24), nullable=False)
+    team_overall: Mapped[float] = mapped_column(Float, nullable=False)
+    opponent_overall: Mapped[float] = mapped_column(Float, nullable=False)
 
-    team_score: Mapped[int] = mapped_column(SmallInteger, nullable=False, default=0)
-    opponent_score: Mapped[int] = mapped_column(SmallInteger, nullable=False, default=0)
+    team_score: Mapped[int] = mapped_column(SmallInteger, nullable=False)
+    opponent_score: Mapped[int] = mapped_column(SmallInteger, nullable=False)
     overtimes: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
 
     team_rank_at_time: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
     opponent_rank_at_time: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
 
-    team_rating_at_time: Mapped[float | None] = mapped_column(Float(precision=24), nullable=True)
-    opponent_rating_at_time: Mapped[float | None] = mapped_column(Float(precision=24), nullable=True)
+    team_rating_at_time: Mapped[float | None] = mapped_column(Float, nullable=True)
+    opponent_rating_at_time: Mapped[float | None] = mapped_column(Float, nullable=True)

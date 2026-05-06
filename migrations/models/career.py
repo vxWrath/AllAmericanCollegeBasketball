@@ -16,7 +16,9 @@ class Career(Base):
         index=True,
     )
     created_at: Mapped[datetime.datetime] = mapped_column(TIMESTAMP(timezone=True), nullable=False)
-    last_played_at: Mapped[datetime.datetime | None] = mapped_column(TIMESTAMP(timezone=True), nullable=True)
+    last_played_at: Mapped[datetime.datetime | None] = mapped_column(
+        TIMESTAMP(timezone=True), nullable=True
+    )
 
     coach_name: Mapped[str] = mapped_column(String(100), nullable=False)
     rng_seed: Mapped[int] = mapped_column(Integer, nullable=False)

@@ -19,7 +19,7 @@ class TeamAccomplishments(Struct, kw_only=True, dict=True):
     ncp_championships: int = 0
     scp_appearances: int = 0
     scp_championships: int = 0
-    best_ncp_finish: int | None = None      # 1 = champion, 2 = runner-up, 4 = Final Four, etc.
+    best_ncp_finish: int | None = None  # 1 = champion, 2 = runner-up, 4 = Final Four, etc.
     best_regular_season_rank: int | None = None
 
 
@@ -42,8 +42,9 @@ class Team(Struct, kw_only=True, dict=True):
     accomplishments: TeamAccomplishments = TeamAccomplishments()
 
     def __post_init__(self) -> None:
-        self.game_log: dict[int, GameLog] = {} # week by week log of games played, indexed by week number
+        self.game_log: dict[
+            int, GameLog
+        ] = {}  # week by week log of games played, indexed by week number
         self.players: list[Player] = []
         self.coach_session: CoachSession = MISSING
         self.meta: dict[str, Any] = {}  # conference prestige, tier, etc. from conferences.json
-

@@ -26,7 +26,9 @@ class CoachingStintStats(Struct, kw_only=True, dict=True):
 class Career(Struct, kw_only=True, dict=True):
     id: int
     user_id: int
-    created_at: datetime.datetime = field(default_factory=lambda: datetime.datetime.now(tz=datetime.UTC))
+    created_at: datetime.datetime = field(
+        default_factory=lambda: datetime.datetime.now(tz=datetime.UTC)
+    )
     last_played_at: datetime.datetime | None = None
 
     coach_name: str
@@ -42,7 +44,11 @@ class Career(Struct, kw_only=True, dict=True):
         return self
 
     def career_length(self) -> int:
-        return self.current_season - min(stint.start_season for stint in self.coaching_stints.values()) + 1
+        return (
+            self.current_season
+            - min(stint.start_season for stint in self.coaching_stints.values())
+            + 1
+        )
 
     def career_wins(self) -> int:
         return sum(stint.wins for stint in self.coaching_stints.values())

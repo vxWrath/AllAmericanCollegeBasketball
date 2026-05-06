@@ -39,24 +39,25 @@ OVERALL_WEIGHTS = {
     },
 }
 
+
 class Year(enum.IntEnum):
-    FRESHMAN  = 1
+    FRESHMAN = 1
     SOPHOMORE = 2
-    JUNIOR    = 3
-    SENIOR    = 4
+    JUNIOR = 3
+    SENIOR = 4
 
 
 class Position(enum.IntEnum):
-    GUARD   = 1
+    GUARD = 1
     FORWARD = 2
-    POST    = 3
+    POST = 3
 
 
 class PlayerOrigin(enum.StrEnum):
-    HIGH_SCHOOL    = "high_school"
-    JUCO           = "juco"
+    HIGH_SCHOOL = "high_school"
+    JUCO = "juco"
     LOWER_DIVISION = "lower_division"
-    D1_TRANSFER    = "d1_transfer"
+    D1_TRANSFER = "d1_transfer"
 
 
 class Player(Struct, kw_only=True, dict=True):
@@ -69,14 +70,14 @@ class Player(Struct, kw_only=True, dict=True):
     year: Year
     origin: PlayerOrigin
 
-    inside_shot: float        # dunks & layups
-    outside_shot: float       # jump shots, mid-range, three, free throws
-    interior_defense: float   # defense on inside shots
+    inside_shot: float  # dunks & layups
+    outside_shot: float  # jump shots, mid-range, three, free throws
+    interior_defense: float  # defense on inside shots
     perimeter_defense: float  # defense on outside shots
-    athleticism: float        # rebounding, blocks
-    playmaking: float         # dribbling, passing, court vision
+    athleticism: float  # rebounding, blocks
+    playmaking: float  # dribbling, passing, court vision
 
-    dev_rate: float           # multiplier for off-season attribute growth
+    dev_rate: float  # multiplier for off-season attribute growth
     is_transferring: bool = False
 
     def __post_init__(self):
@@ -85,7 +86,9 @@ class Player(Struct, kw_only=True, dict=True):
     @property
     def free_throw(self) -> float:
         if "free_throw" not in self.cache:
-            self.cache["free_throw"] = round_to_quarter(self.outside_shot * 0.7 + self.inside_shot * 0.3)
+            self.cache["free_throw"] = round_to_quarter(
+                self.outside_shot * 0.7 + self.inside_shot * 0.3
+            )
         return self.cache["free_throw"]
 
     @property
@@ -119,14 +122,17 @@ class Player(Struct, kw_only=True, dict=True):
     def __hash__(self) -> int:
         return self.id
 
+
 class Recruit(Struct, kw_only=True, dict=True):
     id: int
     career_id: int
     name: str
     position: Position
     origin: PlayerOrigin
-    estimated_stars: int | None = None  # randomised from true rating; None until get_estimated_stars() is called
-    dev_rate: float = 0.0                 # revealed after scouting
+    estimated_stars: int | None = (
+        None  # randomised from true rating; None until get_estimated_stars() is called
+    )
+    dev_rate: float = 0.0  # revealed after scouting
 
     inside_shot: float
     outside_shot: float
@@ -161,7 +167,10 @@ class Recruit(Struct, kw_only=True, dict=True):
         }
 
         return round_to_quarter(
-            sum(attrs[skill] * weight for skill, weight in OVERALL_WEIGHTS[self.position.value].items())
+            sum(
+                attrs[skill] * weight
+                for skill, weight in OVERALL_WEIGHTS[self.position.value].items()
+            )
         )
 
     def stars(self) -> int:

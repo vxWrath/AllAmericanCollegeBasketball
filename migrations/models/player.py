@@ -1,4 +1,3 @@
-
 from sqlalchemy import (
     BigInteger,
     Boolean,
@@ -14,6 +13,7 @@ from .base import Base
 
 __all__ = ["Player", "Recruit"]
 
+
 class Player(Base):
     __tablename__ = "players"
 
@@ -26,8 +26,8 @@ class Player(Base):
 
     name: Mapped[str] = mapped_column(String(100), nullable=False)
     position: Mapped[int] = mapped_column(SmallInteger, nullable=False)  # Position enum
-    year: Mapped[int] = mapped_column(SmallInteger, nullable=False)      # Year enum
-    origin: Mapped[str] = mapped_column(String(50), nullable=False)      # PlayerOrigin enum
+    year: Mapped[int] = mapped_column(SmallInteger, nullable=False)  # Year enum
+    origin: Mapped[str] = mapped_column(String(50), nullable=False)  # PlayerOrigin enum
 
     inside_shot: Mapped[float] = mapped_column(Float, nullable=False)
     outside_shot: Mapped[float] = mapped_column(Float, nullable=False)
@@ -52,7 +52,7 @@ class Recruit(Base):
 
     name: Mapped[str] = mapped_column(String(100), nullable=False)
     position: Mapped[int] = mapped_column(SmallInteger, nullable=False)  # Position enum
-    origin: Mapped[str] = mapped_column(String(50), nullable=False)      # PlayerOrigin enum
+    origin: Mapped[str] = mapped_column(String(50), nullable=False)  # PlayerOrigin enum
     estimated_stars: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
     dev_rate: Mapped[float] = mapped_column(Float, nullable=False)
 

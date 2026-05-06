@@ -11,7 +11,9 @@ class PlayerStats(Base):
 
     __table_args__ = (
         UniqueConstraint(
-            "player_id", "season", "scope",
+            "player_id",
+            "season",
+            "scope",
             name="uq_player_stats_player_season_scope",
         ),
     )
@@ -27,10 +29,10 @@ class PlayerStats(Base):
     )
     team_id: Mapped[int] = mapped_column(BigInteger, nullable=False, index=True)
     season: Mapped[int] = mapped_column(SmallInteger, nullable=False)
-    scope: Mapped[int] = mapped_column(SmallInteger, nullable=False)    # StatsScope enum
+    scope: Mapped[int] = mapped_column(SmallInteger, nullable=False)  # StatsScope enum
 
     # Denormalized from Player for award queries (position-based All-Conference, etc.)
-    position: Mapped[int] = mapped_column(SmallInteger, nullable=False) # Position enum
+    position: Mapped[int] = mapped_column(SmallInteger, nullable=False)  # Position enum
 
     games_played: Mapped[int] = mapped_column(SmallInteger, nullable=False)
 

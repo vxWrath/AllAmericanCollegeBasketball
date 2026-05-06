@@ -1,4 +1,3 @@
-
 from sqlalchemy import BigInteger, Float, ForeignKey, SmallInteger, String
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column

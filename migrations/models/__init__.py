@@ -7,4 +7,14 @@ from .session import Session
 from .team import Team
 from .user import User
 
-__all__ = ["Base", "User", "Session", "Career", "Player", "Recruit", "PlayerStats", "Team", "GameLog"]
+__all__ = [
+    "Base",
+    "User",
+    "Session",
+    "Career",
+    "Player",
+    "Recruit",
+    "PlayerStats",
+    "Team",
+    "GameLog",
+]

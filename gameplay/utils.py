@@ -2,6 +2,7 @@ from typing import Any
 
 __all__ = ["MISSING", "round_to_quarter"]
 
+
 class _MissingSentinel:
     __slots__ = ()
 
@@ -15,10 +16,11 @@ class _MissingSentinel:
         return 0
 
     def __repr__(self):
-        return '...'
+        return "..."
 
 
 MISSING: Any = _MissingSentinel()
+
 
 def round_to_quarter(value: float) -> float:
     """Round a float to the nearest quarter (0.25)."""

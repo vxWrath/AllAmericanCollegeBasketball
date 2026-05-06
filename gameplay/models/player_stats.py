@@ -6,10 +6,10 @@ __all__ = ["StatsScope", "PlayerStats"]
 
 
 class StatsScope(enum.IntEnum):
-    REGULAR_SEASON   = 0
-    CONF_TOURNAMENT  = 1
-    NCP_TOURNAMENT   = 2
-    SCP_TOURNAMENT   = 3
+    REGULAR_SEASON = 0
+    CONF_TOURNAMENT = 1
+    NCP_TOURNAMENT = 2
+    SCP_TOURNAMENT = 3
 
 
 class PlayerStats(Struct, kw_only=True, dict=True):

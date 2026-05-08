@@ -18,10 +18,7 @@ logger = get_logger("cache")
 
 class Cache:
     def __init__(self, app) -> None:
-        self.app = app
-
         self.loop = asyncio.get_running_loop()
-
         self.redis: Redis
 
     async def connect(self) -> None:

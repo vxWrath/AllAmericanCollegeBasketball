@@ -5,6 +5,7 @@ from services import Cache, Database
 
 __all__ = ["State"]
 
+
 class State:
     app: Application
     cache: Cache

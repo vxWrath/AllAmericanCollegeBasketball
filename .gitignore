@@ -16,3 +16,10 @@ build/
 
 # Alembic — version files ARE committed so CI can run migrations
 migrations/versions/.gitkeep
+
+# Node
+node_modules/
+package-lock.json
+
+# Tailwind generated output
+website/static/style.css

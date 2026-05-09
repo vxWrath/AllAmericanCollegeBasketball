@@ -1,0 +1,25 @@
+{
+    "name": "allamericancollegebasketball",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "npx @tailwindcss/cli -i ./website/static/input.css -o ./website/static/style.css --watch --config ./tailwind.config.js",
+        "build": "npx @tailwindcss/cli -i ./website/static/input.css -o ./website/static/style.css --minify --config ./tailwind.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vxWrath/AllAmericanCollegeBasketball.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/vxWrath/AllAmericanCollegeBasketball/issues"
+    },
+    "homepage": "https://github.com/vxWrath/AllAmericanCollegeBasketball#readme",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.3.0"
+    }
+}

@@ -4,7 +4,9 @@ from blacksheep import Application
 from rodi import Container
 
 from services import get_logger, is_production
+from website.errors import configure_error_handlers
 from website.state import State
+from website.templating import configure_templating
 
 logger = get_logger("main")
 
@@ -19,6 +21,9 @@ def configure_application() -> Application:
     state.set_app(app)
 
     app.serve_files(Path(__file__).parent / "static", root_path="static", discovery=True)
+
+    configure_error_handlers(app)
+    configure_templating(app)
 
     return app
 
